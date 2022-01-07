@@ -1,0 +1,32 @@
+
+[
+   
+    {"id":1,"name":"Lip Stcik","img":" https://i.ibb.co/KFgmkwy/lipstick.jpg", "price":15},
+
+    {"id":2,"name":"Foundation","img":"https://i.ibb.co/kJnvC4K/foundation.jpg", "price":20},
+
+    {"id":3,"name":"Primer","img":"https://i.ibb.co/30pNj6T/primer.jpg", "price":9},
+
+    {"id":4,"name":"Makeup Setting Spray","img":"https://i.ibb.co/cT7N2pv/setting-spray.jpg", "price":12},
+
+    {"id":5,"name":"Eye Liner","img":"  https://i.ibb.co/T4jC83D/eyeliner.jpg", "price":18},
+
+    {"id":6,"name":"Eye Shade","img":"https://i.ibb.co/cJzJZRy/eye-shade.jpg", "price":18},
+
+    {"id":7,"name":"Makeup Box","img":"https://i.ibb.co/1drMpGR/makeup-box.jpg", "price":25},
+
+    {"id":8,"name":"Nail Polish","img":"https://i.ibb.co/M8RMY6n/nailpolish.jpg", "price":14},
+
+    {"id":9,"name":"Makeup Cleanger","img":"https://i.ibb.co/sg8qM7d/makeup-cleanging.jpg", "price":31},
+    
+
+    {"id":10,"name":"Face Powder","img":"https://i.ibb.co/Zf4smy3/face-powder.jpg", "price":16},
+
+    {"id":1,"name":"Kajol","img":"  https://i.ibb.co/D7KWwfX/kajol.jpg", "price":10},
+
+    {"id":11,"name":"Highlighter","img":"  https://i.ibb.co/DwdX22q/highlighter.png", "price":20},
+
+    {"id":12,"name":"BB cream","img":" https://i.ibb.co/5rtXFL9/bbcream.jpg", "price":19}
+
+
+]
