@@ -30,7 +30,7 @@ function App() {
        <AnimatedCursor  innerSize={15}
         outerSize={10} />
       <Router >
-       <Header></Header>
+    <Header></Header>
        <Routes>
          <Route path="/" element={<Home/>}></Route>
          <Route path="/home" element={<Home/>}></Route>
