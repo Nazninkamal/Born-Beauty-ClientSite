@@ -1,19 +1,10 @@
 .banner{
     background-image: url(../../../image/high-angle-body-lotion-other-spa-essentials.jpg);
-    
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
+    background-size: contain; 
     background-size: cover;
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    
-   
-  
-
-}
+    height: 100vh;
+    width:100%;
+    }
 .font{
 font-weight: 700;
 
