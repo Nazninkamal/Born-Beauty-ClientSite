@@ -1,0 +1,18 @@
+.purchase form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.purchase form input, textarea{
+    width: 80%;
+    margin-bottom: 12px;
+}
+.purchase{
+    background-color: rgb(107, 236, 100);
+}
+.area{
+    height: 120px;
+    
+}

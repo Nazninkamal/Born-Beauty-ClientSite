@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <h6 className="mt-5">Copyright © 2022, naz-theme | DesignThemes.</h6>
+        <h6 className="mt-5 d-flex flex-column align-items-center justify-content-center text-lg-start">Copyright © 2022, naz-theme | DesignThemes.</h6>
       </div>
     </div>
   );

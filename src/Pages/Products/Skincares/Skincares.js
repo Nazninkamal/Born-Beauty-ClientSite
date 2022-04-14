@@ -7,7 +7,7 @@ import './Skincares.css'
 const Skincares = () => {
     const [services, setServices] = useState([]);
     useEffect(() =>{
-        fetch('./skincare.json')
+        fetch('https://young-inlet-53249.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setServices(data));
     } ,[])

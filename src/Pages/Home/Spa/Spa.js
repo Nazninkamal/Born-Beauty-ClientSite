@@ -2,13 +2,13 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Spa.css'
+
 const Spa = () => {
     return (
-        <div className='spa'>
-            <br />
-            <br />
-            <br />
-            <div className='col-md-5 text-start mx-5 my-5'> 
+        <div className='spa '>
+          
+       <div className='row m-auto'>
+       <div className='col-md-7 text-start p-5 mt-5'> 
             <h4>A Nature’s Touch</h4>
            <h1>100% Original & Organic Skin Care Product</h1>
            <h4>Benefits of a Skin Care Routine</h4>
@@ -18,14 +18,17 @@ const Spa = () => {
             <li>It keeps the skin healthy, which in turn keeps you healthier.</li>
             <li>Results can be dramatic if you stick with it.</li></h5>
             <br />
-            <Link to="/skincares"><Button variant="secondary" size="lg">Explore Skin Care Product</Button></Link>
+            <Link to="/skincares"><Button style={{backgroundColor: "#ee2d7a", borderRadius:20}} size="lg">Explore Skincare Product</Button></Link>
 
             </div>
+
+            <div className='col-md-7 text-start p-5'> 
+
+            </div>
+       </div>
           
-           <br />
-            <br />
-            <br />
-           
+          
+          
 
         </div>
     );

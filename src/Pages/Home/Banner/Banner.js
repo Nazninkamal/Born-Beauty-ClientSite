@@ -1,52 +1,25 @@
 import React from 'react';
-import { Button, Carousel } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import banner1 from '../../../image/banner/banner1.png'
-import banner2 from '../../../image/banner/banner2.png'
-import banner3 from '../../../image/banner/banner3.png'
-
+import { Button } from 'react-bootstrap';
+// import { Button, Form, FormControl } from 'react-bootstrap';
+import './Banner.css'
 
 const Banner = () => {
     return (
-        <div>
-            <Carousel>
-  <Carousel.Item interval={8000}>
-    <img
-      className="d-block w-100"
-      src={banner1}
-      alt="First slide"
-    />
-    <Carousel.Caption className=''>
-      <h3>Compelete cosmetics solution</h3>
-      <p>Face Moisturers to Blushes</p>
-      <Link to={`/allproduct`}><Button variant="primary">Explore Now</Button></Link>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item interval={8000}>
-    <img
-      className="d-block w-100"
-      src={banner2}
-      alt="Second slide"
-    />
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <Link to={`/allproduct`}><Button variant="primary">Explore Now</Button></Link>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={banner3}
-      alt="Third slide"
-    />
-    <Carousel.Caption>
-      <h3>Praesenting perfect cosmetics</h3>
-      <p>Beauty that is you.</p>
-      <Link to={`/allproduct`}><Button variant="primary">Explore Now</Button></Link>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+        <div className='banner'>
+           <div className='row banner mb-5 m-auto'>
+           <div className='col-lg-6 col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center text-lg-start p-5'>
+              
+              
+             <h1 className='font'> Natural Way to Healthy Skin</h1>
+             <p className='paragraph'>If your skin has been looking a little dry or dull and you’re starting to see early signs of aging, a single ingredient can help turn that around. As we age, our skin needs more hydration and more moisture because our naturally built-in skin moisturizers begin to diminish sometime in our late 20’s.</p>
+             
+           </div>
+           <div className='col-lg-6 col-md-6 col-sm-12'>
+
+           </div>
+        
+           </div>
+
         </div>
     );
 };
