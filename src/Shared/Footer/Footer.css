@@ -18,12 +18,7 @@
   .footer-menu:hover {
     color: red;
   }
-  .footer-input {
-    padding: 8px;
-    border: none;
-    outline: none;
-    background-color: gray;
-  }
+  
   .footer-container {
     background-color: #feafb2;
     padding-top: 20px;

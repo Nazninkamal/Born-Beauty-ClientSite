@@ -10,8 +10,8 @@ const Cosmetics = () => {
         .then(data => setCosmetics(data));
     } ,[])
     return (
-        <div id="services">
-         
+        <div id="services ">
+            <h1 className='pt-5 mt-5 d-flex flex-column align-items-center justify-content-center text-lg-start'>Our Makeup Collection</h1> 
           <div className="service-container">
             {
                 cosmetics.map(cosmetic =><Cosmetic

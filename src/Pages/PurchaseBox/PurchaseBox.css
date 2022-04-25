@@ -3,14 +3,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 .purchase form input, textarea{
-    width: 80%;
+    width: 60%;
     margin-bottom: 12px;
+    background: transparent;
+    border-width: 2px;
+    border-color:  #ee2d7a;
 }
 .purchase{
-    background-color: rgb(107, 236, 100);
+    background-image: url(../../image/glittery-star-confetti-colorful-abstract-pastel-watercolor-background.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
 }
 .area{
     height: 120px;

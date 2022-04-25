@@ -14,7 +14,7 @@ const Skincares = () => {
     return (
         <div id="services">
          
-          <div className="service-container">
+          <div className="service-container mt-5">
             {
                 services.map(service =><Skincare
                     key = {service.id}

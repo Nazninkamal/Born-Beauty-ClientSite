@@ -16,10 +16,10 @@ import About from './Pages/Home/About/About';
 
 import SkincareAddService from './Pages/SkincareAddService/SkincareAddService';
 import CosmeticsAddService from './Pages/CosmeticsAddService/CosmeticsAddService';
-import Login from './Pages/Login/Login/Login';
 import AnimatedCursor from 'react-animated-cursor';
 import PurchaseBox from './Pages/PurchaseBox/PurchaseBox';
-// import AnimatedCursor from "react-animated-cursor"
+import Login from './Pages/Login/Login/Login';
+import Register from './Pages/Login/Register/Register';
 
 
 
@@ -38,10 +38,11 @@ function App() {
          <Route path="/skincares" element={<Skincares/>}></Route>
          <Route path="/cosmetics" element={<Cosmetics/>}></Route>
          <Route path="/about" element={<About/>}></Route>
-         {/* <Route path="/purchase" element={<PurchaseBox/>}></Route> */}
+         <Route path="/purchase" element={<PurchaseBox/>}></Route> 
          <Route path="/skincareaddservice" element={<SkincareAddService/>}></Route>
          <Route path="/cosmeticsaddservice" element={<CosmeticsAddService/>}></Route>
          <Route path="/login" element={<Login/>}></Route>
+         <Route path="/register" element={<Register/>}></Route>
 
 
 

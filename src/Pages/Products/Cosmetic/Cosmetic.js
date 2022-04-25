@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Button, Card, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Cosmetic = ({cosmetic}) => {
@@ -7,8 +7,10 @@ const Cosmetic = ({cosmetic}) => {
 
     return (
         <div >
-        
-        <Card className = "mx-4 rounded-3 my-5" style={{ width: '22rem' }}>
+             
+            <Container>
+           
+    <Card className = " rounded-3 my-5 py-5" style={{ width: '22rem' }}>
     <Card.Img variant="top" src={img} />
     <Card.Body className="text-xl-start">
      <h5>{name}</h5>
@@ -16,11 +18,12 @@ const Cosmetic = ({cosmetic}) => {
      
      
      <br />
-     <Link to= "/purchase"><button className="btn btn-warning">Purchase</button></Link>
+     <Link to= "/purchase"><Button style={{backgroundColor: "#ee2d7a", borderRadius:5, border:"none", width:"30%", padding:10}}>Purchase</Button></Link>
 
       
     </Card.Body>
   </Card>
+ </ Container>
         </div>
     );
 };

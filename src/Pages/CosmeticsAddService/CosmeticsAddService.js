@@ -17,14 +17,14 @@ const CosmeticsAddService = () => {
       })
     };
       return (
-          <div className="add-service">
-             <h1>add a product</h1> 
+          <div className="add-service pt-5">
+            <h1 className='py-5 d-flex flex-column align-items-center justify-content-center text-lg-start'>Add Your Favourite Makeup Products</h1> 
              <form onSubmit={handleSubmit(onSubmit)} >
         <input {...register("name")} placeholder="Name"/>
         {/* <textarea {...register("description")}  placeholder="Description"/> */}
         <input type="number" {...register("purchase")} placeholder="purchase"/>
         <input {...register("img")} placeholder="img url"/>
-        <input type="submit" />
+        <input type="submit" style={{backgroundColor: "#ee2d7a", borderRadius:5, border:"none", width:"30%", padding:12}} size="lg"/>
       </form>
           </div>
       );
